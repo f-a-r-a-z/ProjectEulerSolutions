@@ -12,7 +12,7 @@ namespace ProjectEulerSolutions.Problems {
             int[] digits = new int[strN.Length];
 
             for (int i = 0; i < strN.Length; i++) {
-                digits[i] = strN[i];
+                digits[i] = (int)char.GetNumericValue(strN, i);
             }
 
             return digits;
