@@ -14,7 +14,7 @@ namespace ProjectEulerSolutions.Problems {
                     if (i == 20) return curr;
                 }
 
-                curr += 20;
+                curr += 20; // Must be a multiple of 20 to be divisible by 20
             }
         }
     }

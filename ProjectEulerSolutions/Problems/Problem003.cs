@@ -7,6 +7,8 @@ using System;
 
 namespace ProjectEulerSolutions.Problems {
     class Problem003 {
+
+        // Checks whether a value (n) is prime or not
         public static bool IsPrime(ulong n) {
             if (n <= 2) return true;
             for (ulong i = 2; i <= Math.Sqrt(n); i++) {
@@ -16,6 +18,7 @@ namespace ProjectEulerSolutions.Problems {
             return true;
         }
 
+        // Returns the largest factor of a number (n) that is prime
         public static ulong LargestPrimeFactor(ulong n) {
             ulong max = 1;
 

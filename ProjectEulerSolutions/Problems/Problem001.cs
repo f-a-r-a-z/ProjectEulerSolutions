@@ -5,6 +5,8 @@
 
 namespace ProjectEulerSolutions.Problems {
     class Problem001 {
+
+        // Returns the sum of all multiples of a number (multipleOf) under a max value (under)
         public static int SumOfMultiplesUnder(int multipleOf, int under) {
             int sum = 0;
 

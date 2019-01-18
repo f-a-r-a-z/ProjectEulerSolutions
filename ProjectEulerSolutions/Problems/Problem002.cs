@@ -11,6 +11,8 @@
 
 namespace ProjectEulerSolutions.Problems {
     class Problem002 {
+
+        // Finds the sum of all even values in the Fibonacci Series under maxValue
         public static int EvenFibonacciSum(int maxValue) {
             int sum = 0;
             int left = 1;
