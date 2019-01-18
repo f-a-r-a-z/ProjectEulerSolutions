@@ -8,9 +8,7 @@ namespace ProjectEulerSolutions.Problems {
     class Problem004 {
 
         // Returns an array of a numbers digits
-        public static int[] GetDigits(int n) {
-            string strN = n.ToString();
-
+        public static int[] GetDigits(string strN) {
             int[] digits = new int[strN.Length];
 
             for (int i = 0; i < strN.Length; i++) {
@@ -22,7 +20,7 @@ namespace ProjectEulerSolutions.Problems {
 
         // Checks if a number is a palindrome (e.g 10201)
         public static bool IsPalindrome(int n) {
-            int[] digits = GetDigits(n);
+            int[] digits = GetDigits(n.ToString());
             
             for (int i = 0; i < digits.Length / 2; i++) {
                 if (digits[i] != digits[digits.Length - 1 - i]) return false;
