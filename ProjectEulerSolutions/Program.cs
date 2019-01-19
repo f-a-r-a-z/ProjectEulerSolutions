@@ -10,6 +10,7 @@ namespace ProjectEulerSolutions {
             Console.WriteLine("Problem 5 Solution: " + Problems.Problem005.Solution());
             Console.WriteLine("Problem 6 Solution: " + Problems.Problem006.Solution());
             Console.WriteLine("Problem 7 Solution: " + Problems.Problem007.Solution());
+            Console.WriteLine("Problem 8 Solution: " + Problems.Problem008.Solution());
             Console.Write("Press Enter to exit");
             Console.ReadLine();
         }
